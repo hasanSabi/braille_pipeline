@@ -2,7 +2,6 @@ import os
 from PIL import Image
 import pytesseract
 
-# Uncomment and adjust if needed
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 input_dir = r"C:/Users/SAGEER/Desktop/braille_pipeline/data/raw/"
